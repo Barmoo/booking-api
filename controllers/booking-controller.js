@@ -14,7 +14,7 @@ export const getOneBooking = (req,res) =>{
 export const postBooking= async(req,res) =>{
     const newBooking = new booking(req.body)
         const bookings = await newBooking.save()
-    res.status(201).json("booking successful")
+    res.status(201).json(bookings)
 
 }
 
