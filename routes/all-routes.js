@@ -8,3 +8,6 @@ bookingRouter.get('/bookings/:id', getOneBooking);
 bookingRouter.post('/booking',postBooking);
 bookingRouter.patch('/booking/:id',updateBooking);
 bookingRouter.delete('/booking/:id',deleteBooking);
+
+// user 
+
